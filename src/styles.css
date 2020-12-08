@@ -1,4 +1,43 @@
-.App {
+body {
+  font-family: helvetica;
+  background: #F6F8F9;
+  color: #000;
+}
+
+.app {
   font-family: sans-serif;
   text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 0;
+}
+
+.color-grey { 
+  color: #666;
+}
+
+.btn {
+  color: #FFFFFF;
+  background-color: #2D5D67;
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.12);
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  max-width: 240px;
+  transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: Avenir, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 1.5rem;
+}
+
+.report {
+  padding: 60px 0;
 }
